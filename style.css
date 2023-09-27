@@ -82,6 +82,8 @@ a:active { text-decoration: none; }
   border-width: 1px;
   background-color: white;
   line-height: 60%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .cover-photo {
@@ -96,7 +98,7 @@ a:active { text-decoration: none; }
 }
 
 .input-box {
-  color: white;
+  color: black;
   height: 50px;
   width: 220px;
   border-radius: 5px;
@@ -107,4 +109,29 @@ a:active { text-decoration: none; }
 
 h3 {
   font-family: 'Outfit', sans-serif;
+}
+
+.sub {
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  border-width: 0.5px;
+  font-family: 'Outfit', sans-serif;
+  padding-left: 2%;
+  margin-left: 1%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+}
+
+.newsletter-grid {
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
