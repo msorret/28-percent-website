@@ -58,7 +58,7 @@ a:active { text-decoration: none; color: rgb(176, 46, 176)}
   padding-right: 4%;
   width: 48%;
   color: black;
-  font-family: 'Original Surfer', cursive;
+  font-family: 'Marcellus', serif;
   font-size: 15px;
 }
 
@@ -108,7 +108,7 @@ a:active { text-decoration: none; color: rgb(176, 46, 176)}
 
 .cover-title {
   text-align: center;
-  font-family: 'Original Surfer', cursive;
+  font-family: 'Marcellus', serif;
 }
 
 .input-box {
@@ -117,12 +117,12 @@ a:active { text-decoration: none; color: rgb(176, 46, 176)}
   width: 210px;
   border-radius: 5px;
   border-width: 0.5px;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Marcellus', serif;
   padding-left: 2%;
 }
 
 h3 {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Marcellus', serif;
 }
 
 .sub {
@@ -132,7 +132,7 @@ h3 {
   width: 150px;
   border-radius: 5px;
   border-width: 0.5px;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Marcellus', serif;
   padding-left: 2%;
   margin-left: 1%;
 }
@@ -154,7 +154,7 @@ h3 {
 
 .subscribe-box {
     background: #FFFCF6;
-    font-family: 'Gothic A1', serif;
+    font-family: 'Marcellus', serif;
     padding: 6em 0;
     text-align: center;
     color: black;
