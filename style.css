@@ -1,5 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Original+Surfer&family=Outfit:wght@100;200;300;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Poppins:300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Forum');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i|Marcellus|Nanum+Myeongjo:400,700,800|Old+Standard+TT:400,400i,700|Prata|Vidaloka');
 
 body {
   background-color: #FFFCF6
@@ -30,7 +33,7 @@ body {
   font-size: 20px;
 }
 
-.link.center {
+.link.middle {
   padding-left: 110px;
   padding-right: 110px;
 }
@@ -39,9 +42,9 @@ a:link { text-decoration: none; }
 
 a:visited { text-decoration: none; }
 
-a:hover { text-decoration: none; }
+a:hover { text-decoration: none; color: rgb(176, 46, 176) }
 
-a:active { text-decoration: none; }
+a:active { text-decoration: none; color: rgb(176, 46, 176)}
 
 .grid-body {
   display: flex;
@@ -100,7 +103,7 @@ a:active { text-decoration: none; }
 .input-box {
   color: black;
   height: 50px;
-  width: 220px;
+  width: 210px;
   border-radius: 5px;
   border-width: 0.5px;
   font-family: 'Outfit', sans-serif;
@@ -135,4 +138,60 @@ h3 {
 
   display: flex;
   flex-direction: column;
+}
+
+
+.subscribe-box {
+    background: #FFFCF6;
+    font-family: 'Gothic A1', serif;
+    padding: 6em 0;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+  margin: 0 0 .85em 0;
+  font-weight: 100;
+  font-size: 30px;
+  font-family: 'Marcellus', serif;
+}
+
+.subscribe {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+    padding: 1em 0 .8em;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Marcellus', serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+    outline: black;
+
+    &::placeholder { 
+      color: hsla(0, 0%, 55%, 0.5);
+  }
+}
+
+button {  
+  color: black;  
+  all: unset;
+  margin-top: 2.4em;
+  background: transparent;
+  border: 2px solid black;
+  padding: 1em 4em;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  position: relative;
+  transition: all 300ms ease;
 }
