@@ -15,6 +15,15 @@ body {
   font-size: 100px;
 } 
 
+.subtitle {
+  color: rgb(52, 48, 48);
+  text-align: center;
+  margin: auto;
+  font-family: 'Marcellus', serif;
+  font-size: 15px;
+  opacity: 0.5;
+} 
+
 
 
 .navbar {
