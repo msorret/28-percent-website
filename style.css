@@ -42,7 +42,7 @@ body {
 
 .left {
   padding-top: 60px;
-  padding-left: 30px;
+  padding-left: 60px;
 }
 
 .right {
@@ -54,24 +54,20 @@ a:link { text-decoration: none; }
 
 a:visited { text-decoration: none; }
 
-a:hover { text-decoration: none; color: rgb(176, 46, 176) }
-
 a:active { text-decoration: none; color: rgb(176, 46, 176)}
 
 .grid-body {
   display: flex;
   flex-direction: row;
-  margin-left: 10%;
-  
+  padding-bottom: 30px;
 }
 
 .left-hand {
-  padding-top: 2%;
-  padding-right: 12%;
+  padding-left: 5%;
   width: 48%;
   color: black;
   font-family: 'PT Sans', sans-serif;
-
+  margin-left: 10px;
   font-size: 15px;
 }
 
@@ -79,13 +75,34 @@ a:active { text-decoration: none; color: rgb(176, 46, 176)}
   padding-top: 2%;
   padding-right: 2%;
   width: 30%;
+  margin-left: 10%;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: bold;
+  text-align: center;
+}
 
+.coming-up {
+  line-height: 1;
+  padding-bottom: 2%;
+  color: blue;
+}
+
+.coming-up-title {
+  font-size: 25px;
+  color: blue;
+  padding-bottom: 5%;
+}
+.hr-blue {
+  height: 2px;
+  background-color: blue;
+  width: 80%;
 }
 
 .landscape-photo {
-  width: 50vw; 
-  height: 55vh; 
+  width: 55vw; 
+  height: 65vh; 
   object-fit: cover;
+  margin-left: 5;
 }
 
 .newsletter-div {
@@ -236,4 +253,45 @@ button {
   font-family: 'Cormorant Garamond', serif;
 }
 
+.featured-desc {
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 0.02;
+}
 
+.featured-desc-date {
+  font-size: 15px;
+  padding-top: 1%;
+  text-align: center;
+}
+.featured-desc-title {
+  font-size: 40px;
+  text-align: center;
+}
+.featured-desc-body {
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 25px;
+  margin-left: 3%;
+}
+.continue-reading {
+  
+  border: 0.5px solid blue;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 13px;
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: 37%;
+
+
+}
+
+.continue-reading:hover {
+  background-color: blue;
+  color: white;
+}
+.calender {
+  justify-content: center;
+  margin-left: 23%;
+  margin-top: 1%;
+}
