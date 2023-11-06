@@ -293,9 +293,7 @@ button {
   color: white;
 }
 .calender {
-  justify-content: center;
-  margin-left: 23%;
-  margin-top: 1%;
+ padding-right: 3%;
 }
 
 .strip {
@@ -349,4 +347,13 @@ button {
   font-size: 13px;
   font-family: 'Cormorant Garamond', serif;
   margin-left: 40%;
+}
+
+.events-containter {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  padding: 3%;
+
 }
