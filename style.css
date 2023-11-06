@@ -352,8 +352,18 @@ button {
 .events-containter {
   display: flex;
   flex-direction: row;
-
+  font-family: 'Cormorant Garamond', serif;
   justify-content: center;
-  padding: 3%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+
+}
+
+.social-media {
+
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  font-size: 20px;
 
 }
